@@ -172,3 +172,25 @@ sudo unshadow /etc/passwd /etc/shadow > nebismieri
 
 John nebismieri
 John - -format=crypt - -user=patricia - -incremental=digits nebismieri
+
+
+– zip2john file.zip
+- zip2john file.zip> rame.hash
+Wordlist არ გვაქვს
+john rame.hash
+Wordlistit მოცემულია
+Zip file cracking
+zip2john file.zip>rame.hash
+john rame.hash - -wordlist=wordlistfile
+Wordlist - მოცემულია ბოლო ან დასაწყისი რაოდენობა მაგ.50000
+tail -n 50000 wordlistfile > new.txt (ბოლო)
+head -n 50000 wordlistfile > ne w.txt (დასაწყისი)
+john rame.hash - - wordlist=new.txt
+Crunch (ფაილის პაროლი არის მხოლოდ ციფრები მაგალითად 4დან 6მდე სიგრძით)
+crunch 46'123456789' > new.txt
+აქ ვწერთ რაც გვაქ მოცემული ' (შეიძლება იყოს ასოები, special charactersებიც)
+John rame.hash - - wordlist=new.txt
+თუ პირობაში იუზერი(მაგ.patricia) დაკონკრეტებულია ვაკეთებთ unshadowით
+sudo unshadow /etc/passwd /etc/shadow > nebismieri
+John nebismieri
+John - -format=crypt - -user=patricia - -incremental=digits nebismieri (ციფრებით)
