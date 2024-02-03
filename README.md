@@ -1,0 +1,196 @@
+zip2john 2.zip>lasha.hash  
+crunch 8 8 '01benrz' -o masha.txt 
+john '/home/lelouch/Desktop/giga.txt' --wordlist='/home/lelouch/Desktop/masha.txt' 
+
+head -n 10 rockyou.txt> nini.txt 
+
+
+
+
+
+
+
+Settings
+
+Hi! Here some our recommendations to get the best out of BLACKBOX:
+
+Be as clear as possible
+
+End the question in what language you want the answer to be, e.g: ‘connect to mongodb in python
+or you can just
+Go to Blackbox
+Here are some suggestion (choose one):
+Write a function that reads data from a json file
+How to delete docs from mongodb in phyton
+Connect to mongodb in nodejs
+Ask any coding question
+send
+refresh
+Blackbox AI Chat is in beta and Blackbox is not liable for the content generated. By using Blackbox, you acknowledge that you agree to agree to Blackbox's Terms and Privacy Policy
+Skip to content
+voidlawliet
+/
+lawlietcve
+
+Type / to search
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Commit
+hc
+ main
+@voidlawliet
+voidlawliet committed last week 
+1 parent 1a51a7b
+commit de0dc9c
+Showing 1 changed file with 34 additions and 0 deletions.
+ 34 changes: 34 additions & 0 deletions34  
+hc
+@@ -0,0 +1,34 @@
+?I = abcdefghijklmnopqrstuvwxyz
+?u = ABCDEFGHIJKLMNOPQRSTUVWXYZ
+?d = 0123456789
+?h = 0123456789abcdefghijklmnopqrstuvwxyz
+?H = 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
+?s = <space>!"@#$%^&*() ... 
+?a = ?i?u?d?s
+?b = 0x00 - 0xff
+
+-m 2500  telling hashcat to use wpa and wpa2 hash modes
+-w 3  telling that i want perofrmace to be high 
+--status show us actual status of hacking proccess on the screen
+-a 6 tell hashcat i want to use hybrod wordlist and the mask attack mode
+?d - this will tell hashcat to add number at the end of the password
+tu gveqneba ?d?d?d?d anu daamate 4 cifri yvelas mosinjavs
+
+hashcat.exe -d 1 -m 22000 -w 3 --status -a 6 395733_1698859845.hc22000 rockyou.txt ?d?d?d?d?d?d?d?d  --- worldistit gatexva
+
+
+https://hashcat.net/wiki/doku.php?id=mask_attack
+
+es air paili .cap. es unda gadavaqciot hc.22000 failad ro hashcatma waikitxos da gatexos kodi.
+
+shevdivart saitze - https://hashcat.net/cap2hashcat/ da avtvirtavt .cap fails. gadavaqcevt .hc22000 failad da chamovtvirtavt
+
+https://hashcat.net/cap2hashcat/
+
+hashcat.exe -d 1 -m 22000 395733_1698859845.hc22000 -a 3 ?d?d?d?d?d?d?d?d 
+
+
+
+sqlmap -u http://35.198.135.192:32157/index.php --cookie="PHPSESSID=d2ffbe7989f6b07058268c9376fb4e38" --forms --columns --random-agent
+
+hcxpcapngtool -O hash.hc2000 -E essidlist hash.pcpang
+
+
+
+
+
+$sudo adduser jorge
+
+$sudo usermod -a -G <group_name> <username>
+$sudo usermod -a -G root user1
+
+
+Add user
+useradd -m username
+
+
+$chsh -s /bin/bash username
+# chsh command is used to change the login shell for a user.
+
+
+Set user group to sudo.
+usermod -a -G sudo username
+# -a option to add and ‘-G sudo’ means to add the user to the sudo group
+
+Create new group
+$groupadd -g group-ID group-name
+where group-ID is the numeric identifier of the group, and group-name is the name of the group.
+
+
+To create a new group, use the groupadd command
+$getent group group-name
+where group-name is the name of the group.
+
+
+Change the group ID
+$sudo groupmod -g 1011 botnet
+
+
+Rename a group
+$sudo groupmod -n test demo1
+
+
+Add and remove users from a group
+Suppose you have existing users named user1 and user2, and you want to add them to the demo group. Use the usermod command with the --append --groups options (-a and -G for short):
+
+$sudo usermod --append --groups demo user1
+$sudo usermod -aG demo user2
+
+
+To remove a specific user from a group
+$sudo gpasswd --delete user1 demo
+
+
+Use the id command to confirm your changes:
+$id user1
+
+
+Delete a group
+$sudo groupdel demo
+
+
+
+
+
+-zip2john file.zip
+-zip2john file.zip> rame.hash
+
+no wordlist
+john rame.hash
+
+wordlist
+zip2john file.zip>rame.hash
+john rame.hash - -wordlist=wordlistfile
+
+wordlist -
+tail -n 50000 wordlistfile > new.txt
+
+head -n 50000 wordlistfile > ne w.txt
+john rame.hash - - wordlist=new.txt
+crunch
+crunch 46'123456789' > new.txt
+John rame.hash - - wordlist=new.txt
+
+sudo unshadow /etc/passwd /etc/shadow > nebismieri
+
+John nebismieri
+John - -format=crypt - -user=patricia - -incremental=digits nebismieri
+
+
+– zip2john file.zip
+- zip2john file.zip> rame.hash
+Wordlist არ გვაქვს
+john rame.hash
+Wordlistit მოცემულია
+Zip file cracking
+zip2john file.zip>rame.hash
+john rame.hash - -wordlist=wordlistfile
+Wordlist - მოცემულია ბოლო ან დასაწყისი რაოდენობა მაგ.50000
+tail -n 50000 wordlistfile > new.txt (ბოლო)
+head -n 50000 wordlistfile > ne w.txt (დასაწყისი)
+john rame.hash - - wordlist=new.txt
+Crunch (ფაილის პაროლი არის მხოლოდ ციფრები მაგალითად 4დან 6მდე სიგრძით)
+crunch 46'123456789' > new.txt
+აქ ვწერთ რაც გვაქ მოცემული ' (შეიძლება იყოს ასოები, special charactersებიც)
+John rame.hash - - wordlist=new.txt
+თუ პირობაში იუზერი(მაგ.patricia) დაკონკრეტებულია ვაკეთებთ unshadowით
+sudo unshadow /etc/passwd /etc/shadow > nebismieri
+John nebismieri
+John - -format=crypt - -user=patricia - -incremental=digits nebismieri (ციფრებით)
